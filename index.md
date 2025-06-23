@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "PM-Papyrus 11111111"
+  name: "PM-Papyrus"
   text: "Processi di Project Management"
   tagline: Project Management
   
