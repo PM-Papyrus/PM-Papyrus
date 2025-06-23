@@ -15,6 +15,6 @@ hero:
 
 ## Componenti del Gruppo
 
-- **Luca Cantagallo**: 
+- **Luca Cantagallo**: luca.cantagallo@studio.unibo.it
 - **Daniel Capannini**: daniel.capannini@studio.unibo.it
 - 

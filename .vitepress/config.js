@@ -19,13 +19,11 @@ export default withMermaid(
             sidebar: [
                 {text: 'Report',
                     items: [
-                        {text: 'Process scoping meeting', link: `${reportPath}/1-prova`},
-                        //{text: 'Valutazione proposte del committente', link: `${reportPath}/2-valutazione-proposte-committente`},
-                        //{text: 'Project Overview Statement', link: `${reportPath}/3-POS`},
-                        //{text: 'Analisi dei rischi', link: `${reportPath}/4-POS-AnalisiRischi`},
-                        //{text: 'Requirements Breakdown Structure', link: `${reportPath}/5-RBS`},
-                        //{text: 'PMLC Model', link: `${reportPath}/6-PMLC-model`},
-                        //{text: 'Traduzione', link: `${reportPath}/7-traduzione`},
+                        {text: 'Scoping', link: `${reportPath}/1-Scoping`},
+                        {text: 'Planning', link: `${reportPath}/2-Planning`},
+                        {text: 'Launching/Execution', link: `${reportPath}/3-Launching`},
+                        {text: 'Monitoring & Controlling', link: `${reportPath}/4-Monitoring`},
+                        {text: 'Closing & Acceptance', link: `${reportPath}/5-Closing`}
                     ]
                 },
             ],
