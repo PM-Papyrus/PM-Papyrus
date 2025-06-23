@@ -26,6 +26,16 @@ export default withMermaid(
                         {text: 'Closing & Acceptance', link: `${reportPath}/5-Closing`}
                     ]
                 },
+                {text: 'Allegati',
+                    items: [
+                        {text: 'Allegati 1 - Project Overview Statement', link: `${processPath}/Allegati-1`},
+                        {text: 'Allegato 2 - Requirements Breakdown Structure', link: `${processPath}/Allegati-2`},
+                        {text: 'Allegato 3 - Work Breakdown Structure', link: `${processPath}/Allegati-3`},
+                        {text: 'Allegato 4 - Stima dei costi', link: `${processPath}/Allegati-4`},
+                        {text: 'Allegato 5 - Diagramma di Gantt', link: `${processPath}/Allegati-5`},
+                        {text: 'Allegato 6 - Risk Analysis', link: `${processPath}/Allegati-6`}
+                    ]
+                }
             ],
 
             socialLinks: [
