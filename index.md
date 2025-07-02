@@ -10,11 +10,10 @@ hero:
   actions:
     - theme: brand
       text: Report
-      link: report/1-process-scoping-meeting
+      link: report/1-Scoping
 ---
 
 ## Componenti del Gruppo
 
 - **Luca Cantagallo**: luca.cantagallo@studio.unibo.it
 - **Daniel Capannini**: daniel.capannini@studio.unibo.it
-- 

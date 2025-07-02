@@ -1,0 +1,1 @@
+# Allegato 2 - Requirements Breakdown Structure
