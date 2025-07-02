@@ -9,7 +9,6 @@
 - ORGANIZZAZIONALE
   - rischio di forate il budjet (monte ore di lavoro).
   - visto che il team segue anche altri progetti si potrebbero verificare ritardi nella consegna del progetto.
-
 - ESTERNO
   - La libreria potrebbe essere trovata poco interessante da parte degli utenti finali.
 
