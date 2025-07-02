@@ -6,7 +6,24 @@
 
 ## I e II sessione
 
+Scopo: individuazione delle attività da svolgere per il raggiungimento dei requisiti del progetto.
+
+Agenda:
+1. Generazione e validazione della WBS.
+2. tima della quantità di lavoro, della durata e delle risorse richieste.
+
+La riunione è iniziata con la generazione della Work Breakdown Structure (WBS) come estensione della Requirements Breakdown Structure (RBS), uno strumento fondamentale per suddividere il progetto in attività più piccole, gestibili e stimabili.
+
+Successivamente, la WBS è stata validata, assicurandosi che tutte le componenti e requisiti fossero coperti e non ci fossero aree di lavoro omesse.
+
+[allegato 3](../process/Allegato-3.md)
+
+[allegato 4](../process/Allegato-4.md)
+
 ## III sessione
+
+
+[allegato 5](../process/Allegato-5.md)
 
 ## IV sessione
 
