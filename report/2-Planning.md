@@ -28,7 +28,7 @@ La riunione è iniziata con la generazione della Work Breakdown Structure (WBS) 
 
 Successivamente, la WBS è stata validata, assicurandosi che tutte le componenti e requisiti fossero coperti e non ci fossero aree di lavoro omesse.
 
-[allegato 3](../process/Allegato-3.md)
+>Allegato La WBS risultante è [allegato 3](../process/Allegato-3.md)
 
 Una volta completata la WBS, il team ha proceduto con la stima delle attività, calcolando la quantità di lavoro, la durata e le risorse necessarie per completare ciascuna attività.
 
@@ -38,7 +38,7 @@ La stima finale è ottenuta come il valore massimo tra la media e la mediana del
 
 > se vogliamo mettere altro vediamo
 
-[allegato 4](../process/Allegato-4.md)
+>Allegato L’analisi delle stime dei costi è presente [allegato 4](../process/Allegato-4.md)
 
 ## III sessione
 
@@ -53,7 +53,7 @@ Agenda:
 
 
 
-[allegato 5](../process/Allegato-5.md)
+>Allegato Il diagramma di Gantt è presente [allegato 5](../process/Allegato-5.md)
 
 ## IV sessione
 
@@ -66,4 +66,4 @@ In questa ultima sessione di pianificazione, alla luce delle attività e della s
 
 Ogni rischio è stato analizzato considerando probabilità di accadimento, impatto atteso sulle attività di progetto e livello di priorità. Sulla base di questa analisi si è stabilito se accettare il rischio, adottare azioni di mitigazione o predisporre un piano di contingenza da attivare all’occorrenza, assicurando così una risposta tempestiva ed efficace.
 
-[allegato 6](../process/Allegato-6.md)
+> Allegato Il documento di analisi dei rischi è presente [allegato 6](../process/Allegato-6.md)
