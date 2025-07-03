@@ -38,3 +38,77 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    - La libreria deve esporre API Scala per uso programmatico in altri progetti
    - Deve poter essere usata come plugin o dipendenza `sbt` in progetti esistenti
    - Deve essere facilmente integrabile in CI/CD pipeline o build automation
+
+```mermaid
+%%{init: {'theme': 'default'}}%%
+graph LR
+
+    P[Papyrus]:::root
+
+%% Sezioni principali
+    P --- A[1. Libreria Core]:::main
+    P --- B[2. Sistema Template]:::main
+    P --- C[3. Rendering e Output]:::main
+    P --- D[4. DSL e Interfaccia]:::main
+    P --- E[5. Integrazione e API]:::main
+    P --- F[6. Requisiti Non Funzionali]:::main
+
+%% Sezione A
+    A --> A_bus
+    A_bus --> A1[1.1 Parsing ed esecuzione del DSL]:::sub
+    A_bus --> A2[1.2 Gestione struttura]:::sub
+    A_bus --> A3[1.3 Supporto elementi]:::sub
+    A_bus --> A4[1.4 Stili personalizzati]:::sub
+    A_bus --> A5[1.5 Scala 3 + sbt]:::sub
+
+%% Sezione B
+    B --> B_bus
+    B_bus --> B1[2.1 Template disponibili]:::sub
+    B_bus --> B2[2.2 Scelta da metadati]:::sub
+    B_bus --> B3[2.3 Personalizzazione]:::sub
+    B_bus --> B4[2.4 Template custom]:::sub
+
+%% Sezione C
+    C --> C_bus
+    C_bus --> C1[3.1 HTML + CSS]:::sub
+    C_bus --> C2[3.2 PDF, HTML, MD, DOCX]:::sub
+    C_bus --> C3[3.3 Scelta formato]:::sub
+    C_bus --> C4[3.4 Validazione]:::sub
+    C_bus --> C5[3.5 Errori intelligibili]:::sub
+
+%% Sezione D
+    D --> D_bus
+    D_bus --> D1[4.1 DSL leggibile]:::sub
+    D_bus --> D2[4.2 Componenti: Section, Table, List…]:::sub
+D_bus --> D3[4.3 Fallback e messaggi di errore]:::sub
+D_bus --> D4[4.4 Validazione statica]:::sub
+
+%% Sezione E
+E --> E_bus
+E_bus --> E1[5.1 API Scala pubbliche]:::sub
+E_bus --> E2[5.2 Pipeline CI/CD]:::sub
+E_bus --> E3[5.3 Usabilità in sbt]:::sub
+E_bus --> E4[5.4 No dipendenze esterne]:::sub
+
+%% Sezione F
+F --> F_bus
+F_bus --> F1[6.1 Performance elevate]:::sub
+F_bus --> F2[6.2 Sviluppo TDD]:::sub
+F_bus --> F3[6.3 Modularità]:::sub
+F_bus --> F4[6.4 Test automatici]:::sub
+
+%% Stili
+classDef root fill:#f9c74f,stroke:#000,stroke-width:2px;
+classDef main fill:#d2f4ea,stroke:#1b4d3e,stroke-width:2px;
+classDef sub fill:#fdebd0,stroke:#c97d36,stroke-width:1px;
+
+%% Linee a bus visibili
+style A_bus stroke:#888,stroke-width:2px;
+style B_bus stroke:#888,stroke-width:2px;
+style C_bus stroke:#888,stroke-width:2px;
+style D_bus stroke:#888,stroke-width:2px;
+style E_bus stroke:#888,stroke-width:2px;
+style F_bus stroke:#888,stroke-width:2px;
+
+
+```
