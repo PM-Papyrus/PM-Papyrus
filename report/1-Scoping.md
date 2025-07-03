@@ -12,12 +12,12 @@ Trattandosi di un progetto universitario sperimentale, non è presente un commit
 
 **Partecipanti della riunione:**
 
-| Membro             | Ruolo             |
-|--------------------|-------------------|
-| Daniel Capannini   | Product Owner     |
-| Studente1          | Project Manager   |
-| Luca Cantagallo    | Scrum Master      |
-| Studente2          | Core Team Member  |
+| Membro           | Ruolo                           |
+|------------------|---------------------------------|
+| Daniel Capannini | Product Owner, Core Team Member |
+| ProjectMager     | Project Manager                 |
+| Luca Cantagallo  | Core Team Member                |
+| Developer        | Core Team Member                |
 
 **Agenda:**
 
