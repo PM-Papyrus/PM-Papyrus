@@ -40,4 +40,4 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    2. Deve poter essere usata come plugin o dipendenza `sbt` in progetti esistenti
    3. Deve essere facilmente integrabile in CI/CD pipeline o build automation
 
-
+![RBS](../diagram/RBS.png)
