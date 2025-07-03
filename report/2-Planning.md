@@ -42,6 +42,16 @@ La stima finale è ottenuta come il valore massimo tra la media e la mediana del
 
 ## III sessione
 
+Scopo: definizione della schedula del progetto.
+
+Agenda:
+1. Identificazione delle dipendenze tra le attività.
+2. Creazione della schedula del progetto.
+3. Individuazione e discussione delle date previste per il completamento del progetto e delle diverse milestone.
+4. Analisi della schedula e della sua compressione, se necessario.
+
+
+
 
 [allegato 5](../process/Allegato-5.md)
 
