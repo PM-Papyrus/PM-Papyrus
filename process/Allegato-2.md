@@ -9,12 +9,8 @@
 Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS](../process/Allegato-1.md) e sulla base dell’Event Storming effettuato, nel formato di una Requirements Breakdown Structure.
 
 1. Progettazione, inizializzazione e configurazione dei workspace
-   1. Creazione l'ambiente di lavoro
-   2. Il sistema deve poter essere inizializzato tramite progetto `sbt` configurato per Scala 3.
-   3. Deve essere predisposta una struttura standard di progetto (`src`, `resources`, `test`).
-   4. Aggiunta delle dipendenze principali
-   5. Il sistema deve includere strumenti per test, export e build automatizzato.
-   6. Deve essere predisposta una pipeline CI/CD per build, test, documentazione e rilascio.
+   1. Il sistema deve includere strumenti per test, export e build automatizzato.
+   2. Deve essere predisposta una pipeline CI/CD per build, test, documentazione e rilascio.
 
 2. Progettazione e implementazione della libreria core
    1. La libreria deve fornire un motore interno basato su builder, responsabili della generazione della struttura documentale.
