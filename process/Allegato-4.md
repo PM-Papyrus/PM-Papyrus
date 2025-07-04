@@ -62,65 +62,59 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 **Attività 1.5** Integrazione plugin sbt per test, documentazione ed export
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 10           | 8                  | 8              | 8,67  | 8       | 8,78           |
-| Round 2 | 9            | 8                  | 8              | 8,33  | 8       | 8,39           |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 2               | 2                | 2         | 2     | 2       | 2              |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 6   |
+| ----------------- |-------|
+| Risorse assegnate | 1     |
+| Durata stimata    | 2     |
 
 **Attività 1.6** Configurazione CI/CD (GitHub Actions)
 
 **Attività 1.6.1** Build e compilazione
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 8            | 10                 | 8              | 8,67  | 8       | 8,78           |
-| Round 2 | 9            | 9                  | 10             | 9,33  | 9       | 9,39           |
-| Round 3 | 9            | 9,5                | 9,5            | 9,33  | 9,5     | 9,31           |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 2               | 2                | 2         | 2     | 2       | 2              |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 7   |
+| ----------------- |-------|
+| Risorse assegnate | 1     |
+| Durata stimata    | 2     |
 
 **Attività 1.6.2** Test automatici
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 3            | 0.5                | 2              | 2,50  | 2,5     | 2,50           |
-| Round 2 | 1,5          | 1,5                | 1,5            | 1,50  | 1,5     | 1,50           |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 2               | 2                | 2         | 2     | 2       | 2              |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 2   |
+| ----------------- |-------|
+| Risorse assegnate | 1     |
+| Durata stimata    | 2     |
 
 **Attività 1.6.3** Generazione documentazione
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 2            | 2                  | 1,5            | 1,83  | 2       | 1,81           |
-| Round 2 | 2            | 2                  | 1,75           | 1,92  | 2       | 1,90           |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 2               | 2                | 2         | 2     | 2       | 2              |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 2   |
+| ----------------- |-------|
+| Risorse assegnate | 1     |
+| Durata stimata    | 2     |
 
 **Attività 1.6.4** Deploy e rilascio versionato
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 3            | 3                  | 2,5            | 2,83  | 3       | 2,81           |
-| Round 2 | 2,75         | 3                  | 2,5            | 2,75  | 2,75    | 2,75           |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 2               | 2                | 2         | 2     | 2       | 2              |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 2   |
+| ----------------- |-------|
+| Risorse assegnate | 1     |
+| Durata stimata    | 2     |
 
 </details>
 
@@ -138,93 +132,86 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 **Attività 2.1.1.1** Metadata
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|----------|-------|------|----------------|
+| Round 1 | 3               | 5                | 5        | 4,33  | 5    | 4,67           |
+| Round 2 | 4               | 5                | 4        | 4,33  | 4    | 4,16         |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 4     |
 
 **Attività 2.1.1.2** Content
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|----------|-------|------|----------------|
+| Round 1 | 3               | 5                | 5        | 4,33  | 5    | 4,67           |
+| Round 2 | 5               | 4                | 4        | 4,33  | 4    | 4,16         |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 4     |
 
 **Attività 2.1.1.3** Title
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|--------|----------------|
+| Round 1 | 2               | 2                | 3         | 2,33  | 2      | 2,16           |
+| Round 2 | 2               | 2                | 2         | 2     | 2      | 2              |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| ----------------- | ---- |
+| Risorse assegnate | 1    |
+| Durata stimata    | 2    |
 
 **Attività 2.1.1.4** Text
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|--------|----------------|
+| Round 1 | 2               | 2                | 3         | 2,33  | 2      | 2,16           |
+| Round 2 | 2               | 2                | 2         | 2     | 2      | 2              |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| ----------------- | ---- |
+| Risorse assegnate | 1    |
+| Durata stimata    | 2    |
 
 **Attività 2.1.1.5** Table
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|------|---------|----------------|
+| Round 1 | 10              | 10               | 12        | 10,66 | 10      | 10.33          |
+| Round 2 | 11              | 11               | 11        | 11   | 11      | 11             |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| ----------------- |-------|
+| Risorse assegnate | 2     |
+| Durata stimata    | 6     |
 
 **Attività 2.1.1.6** Section
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 3               | 5                | 8         | 5,33  | 5       | 5,16           |
+| Round 2 | 5               | 5                | 6         | 5,33  | 5       | 5,16           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 5     |
 
 **Attività 2.1.1.7** Subsection
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 3               | 5                | 8         | 5,33  | 5       | 5,16           |
+| Round 2 | 5               | 5                | 6         | 5,33  | 5       | 5,16           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 5     |
 
 **Attività 2.1.1.8** Listing
 
@@ -242,15 +229,14 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 **Attività 2.1.1.9** Image
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 8               | 5                | 3         | 5,33  | 5       | 5,16           |
+| Round 2 | 5               | 5                | 6         | 5,33  | 5       | 5,16           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 5     |
 
 ---
 
@@ -274,106 +260,97 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 **Attività 2.2.1.2** TitleBuilder
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 4               | 4                | 3         | 3,67  | 4       | 3,83           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 4     |
 
 **Attività 2.2.1.3** TextBuilder
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 4               | 4                | 3         | 3,67  | 4       | 3,83           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 4     |
 
 **Attività 2.2.1.4** TableBuilder
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 15              | 14               | 17        | 15,33 | 15      | 15,16          |
+| Round 2 | 15              | 15               | 16        | 15,33 | 15      | 15,16         |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| ----------------- |-------|
+| Risorse assegnate | 2     |
+| Durata stimata    | 8     |
 
 **Attività 2.2.1.5** SectionBuilder
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 8               | 6                | 6         | 6,67  | 6       | 6,33           |
+| Round 2 | 7               | 7                | 6         | 6,67 | 7       | 6,83           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 7     |
 
 **Attività 2.2.1.6** SubsectionBuilder
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 8               | 6                | 6         | 6,67  | 6       | 6,33           |
+| Round 2 | 7               | 7                | 6         | 6,67 | 7       | 6,83           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 7     |
 
 **Attività 2.2.1.7** ListingBuilder
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 20              | 15               | 17        | 17,33 | 17      | 17,16          |
+| Round 2 | 17              | 17               | 17        | 17    | 17      | 17             |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| ----------------- |-------|
+| Risorse assegnate | 2     |
+| Durata stimata    | 9     |
 
 **Attività 2.2.1.8** ImageBuilder
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 6               | 6                | 7         | 6,33  | 6       | 6,16           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 6     |
 
 **Attività 2.2.1.9** ContentBuilder
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 6               | 7                | 6         | 6,33  | 6       | 6,16           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 6     |
+
+
+> andare avanti a inserire i valori da qui in avanti
 
 **Attività 2.2.2** Costruzione del grafo documentale ricorsivo tramite builder
 
