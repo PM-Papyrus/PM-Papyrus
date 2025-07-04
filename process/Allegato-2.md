@@ -13,16 +13,15 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    2. Deve essere predisposta una pipeline CI/CD per build, test, documentazione e rilascio.
 
 2. Progettazione e implementazione della libreria core
-   1. La libreria deve fornire un motore interno basato su builder, responsabili della generazione della struttura documentale.
+   1. La libreria deve fornire un motore interno basato sui contesti, responsabili della struttura documentale.
    2. Deve supportare la modellazione di elementi documentali, ognuno con funzioni di rendering dello stile e del contenuto.
    3. Ogni elemento deve applicare correttamente lo stile grafico ricevuto, con possibilità di override locale o globale.
    4. Deve esistere un sistema di export in output di tipologie PDF, DOCX, Markdown e HTML.
-   5. Il sistema deve supportare esportazione incrementale e apertura automatica del documento generato.
-
+   
 3. Interfaccia e sintassi DSL
-   1. Il sistema deve offrire un DSL leggibile e modulare per la composizione di documenti tramite codice Scala.
+   1. Il sistema deve offrire un DSL leggibile e modulare per la composizione di documenti.
    2. Il DSL deve gestire automaticamente la validità della gerarchia degli elementi (es. `subsection` solo dentro `section`).
-   3. La validazione deve essere effettuata a tempo di compilazione.
+   3. La validazione deve essere effettuata a tempo di compilazione bloccandone l'esecuzione.
    4. Il DSL deve fornire fallback automatici in caso di errori.
 
 4. Sistema di template e layout documentale
@@ -34,8 +33,6 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
 5. Rendering e generazione del documento
    1. Il sistema deve tradurre la struttura descritta nel DSL in contenuto e stile del contenuto.
    2. Il processo di generazione deve essere suddiviso in: validazione iniziale, generazione dello stile, generazione del contenuto, esportazione.
-   3. Il formato di output deve essere configurabile tramite i metadati.
-   4. Il sistema deve bloccare la generazione in presenza di errori, fornendo messaggi chiari a tempo di compilazione.
 
 6. Integrazione, API pubbliche e usabilità
    1. La libreria deve esporre API Scala documentate per l’uso in progetti esterni.
