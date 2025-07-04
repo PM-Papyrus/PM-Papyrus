@@ -39,9 +39,6 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    2. Deve essere utilizzabile come plugin `sbt`, con comandi espliciti per generazione e apertura documenti.
    3. Il sistema deve essere integrabile in pipeline CI/CD.
    4. Deve essere fornita documentazione tecnica e di esempio.
-   5. Il sistema deve essere completamente testato:
-      - con test unitari (ScalaTest)
-      - con test comportamentali (Gherkin + Cucumber)
-      - con test di integrazione su export e build pipeline
+   5. Il sistema deve essere completamente testato
 
-![RBS](../diagram/RBS.png)
+![RBS](../diagram/rbs2.png)
