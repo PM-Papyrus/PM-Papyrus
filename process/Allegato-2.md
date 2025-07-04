@@ -3,8 +3,55 @@
 ## Event Storming
 
 Event Storming per la definizione dei requisiti del sistema, sono riportate solo alcune azioni per motivi di spazio, ma il processo è stato molto più ampio e dettagliato.
+```mermaid
+flowchart TD
+    %% Comandi utente
+    cmd1["ScriviDocumento(papyrusCode)"]:::command
+    val["Validazione Compile-Time\n- Gerarchia corretta?\n- Parametri validi?"]:::aggregate
+    evValid["DocumentoValido"]:::event
+    evError["ErroreCompileTime"]:::event
+    cmd2["EseguiDocumento()"]:::command
+    cmd3["EseguiDocumento()"]:::command
 
-![Event Storming](../diagram/es.jpg)
+    %% Processo principale
+    template["Selezione Templateo\n\n- (Salvataggio opzionale)"]:::aggregate
+    evTemplate["TemplateUsato"]:::event
+    model["Costruzione Modello Documentale\n- Metadata + Content"]:::aggregate
+    evModel["ModelloCreato"]:::event
+    render["Rendering\n- HTML + CSS"]:::aggregate
+    evRendered["RenderCompletato"]:::event
+    convert["Conversione (se richiesta)\n- PDF, DOCX, Markdown"]:::aggregate
+    evConverted["ConversioneCompletata"]:::event
+    output["Output\n- Apertura automatica\n- Salvataggio se specificato"]:::aggregate
+    evFinal["DocumentoAperto\n(File salvato se richiesto)"]:::event
+
+    %% Errore a runtime
+    evRuntimeError["ErroreRuntime\n(Documento non creato)"]:::event
+
+    %% Flussi
+    cmd1 --> val
+    val -->|✓| evValid
+    val -->|✗| evError
+    evError --> cmd1
+    evValid --> cmd2
+    evError --> cmd3
+    cmd2 --> template --> evTemplate --> model --> evModel --> render --> evRendered --> convert --> evConverted --> output --> evFinal
+    evRendered --> output
+    cmd3 --> evRuntimeError
+
+    %% Stili
+    classDef command fill:#FF8000,stroke:#333,stroke-width:1px,color:#fff;
+    classDef aggregate fill:#0066CC,stroke:#333,stroke-width:1px,color:#fff;
+    classDef event fill:#FFEB3B,stroke:#333,stroke-width:1px,color:#000;
+
+    %% Note
+    click evFinal callout "Il file viene sempre aperto. È salvato solo se specificato in metadata (con path e nome)."
+    click template callout "Il template è salvato solo se l’utente lo indica esplicitamente nei metadata."
+    click evRuntimeError callout "Se ci sono errori a compile-time, l’esecuzione genera errore a runtime e il documento non viene creato."
+```
+
+
+
 
 ## Requirements Breakdown Structure
 

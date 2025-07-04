@@ -89,3 +89,4 @@ A partire dal [RBS](../process/Allegato-2.md), vengono qui di seguito esplosi i 
         2. Test comportamentali con Gherkin + Cucumber
         3. Test di integrazione su pipeline di generazione ed export
 
+![RBS](../diagram/WBS.png)
