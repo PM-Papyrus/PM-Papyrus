@@ -23,7 +23,9 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 2     |
 | Durata stimata    | 3     |
 
-**Attività 1.2** Inizializzazione progetto sbt con supporto Scala 3
+**Attività 1.2** Integrazione plugin sbt
+
+**Attività 1.2.1** Inizializzazione progetto sbt con supporto Scala 3
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
 | ------- | ------------ |------------------|-----------|-------|---------|---------------|
@@ -36,7 +38,7 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 2     |
 | Durata stimata    | 3     |
 
-**Attività 1.3** Configurazione file build.sbt, directory (src, resources, test)
+**Attività 1.3** Configurazione file build.sbt
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
 | ------- |-----------------|------------------|-----------|-------|---------|----------------|
@@ -47,7 +49,7 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 1     |
 | Durata stimata    | 2     |
 
-**Attività 1.4** Aggiunta delle dipendenze principali (ScalaTest, Iron, Cucumber, ecc.)
+**Attività 1.2.3** Aggiunta delle dipendenze principali per test e export
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
 | ------- |-----------------|------------------|-----------|-------|---------|----------------|
@@ -59,7 +61,11 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 2     |
 | Durata stimata    | 2     |
 
-**Attività 1.5** Integrazione plugin sbt per test, documentazione ed export
+
+
+**Attività 1.3** Configurazione CI/CD (GitHub Actions)
+
+**Attività 1.3.1** Build e compilazione
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
 | ------- |-----------------|------------------|-----------|-------|---------|----------------|
@@ -70,9 +76,7 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 1     |
 | Durata stimata    | 2     |
 
-**Attività 1.6** Configurazione CI/CD (GitHub Actions)
-
-**Attività 1.6.1** Build e compilazione
+**Attività 1.3.2** Test automatici
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
 | ------- |-----------------|------------------|-----------|-------|---------|----------------|
@@ -83,7 +87,7 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 1     |
 | Durata stimata    | 2     |
 
-**Attività 1.6.2** Test automatici
+**Attività 1.3.3** Generazione documentazione
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
 | ------- |-----------------|------------------|-----------|-------|---------|----------------|
@@ -94,18 +98,7 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 1     |
 | Durata stimata    | 2     |
 
-**Attività 1.6.3** Generazione documentazione
-
-| Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- |-----------------|------------------|-----------|-------|---------|----------------|
-| Round 1 | 2               | 2                | 2         | 2     | 2       | 2              |
-
-| Unità di misura   | Unità |
-| ----------------- |-------|
-| Risorse assegnate | 1     |
-| Durata stimata    | 2     |
-
-**Attività 1.6.4** Deploy e rilascio versionato
+**Attività 1.3.4** Deploy e rilascio versionato
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
 | ------- |-----------------|------------------|-----------|-------|---------|----------------|
@@ -351,7 +344,7 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 
 
 > andare avanti a inserire i valori da qui in avanti
-
+jik
 **Attività 2.2.2** Costruzione del grafo documentale ricorsivo tramite builder
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
@@ -436,43 +429,10 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 1     |
 | Durata stimata    | X     |
 
----
 
-**Attività 2.5** Esportazione nei formati richiesti
+**Attività 2.4.3** Esportazione nei formati richiesti (da HTML a PDF, DOCX, Markdown)
 
-**Attività 2.5.1** Conversione da HTML a PDF, DOCX, Markdown (tramite librerie esterne)
-
-| Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | X               | X                | X         | X     | X       | X              |
-
-| Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | X     |
-
-**Attività 2.5.2** Supporto a generazione incrementale (solo i formati richiesti)
-
-| Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | X               | X                | X         | X     | X       | X              |
-
-| Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | X     |
-
-**Attività 2.5.3** Salvataggio opzionale, apertura automatica del file generato
-
-| Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | X               | X                | X         | X     | X       | X              |
-
-| Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | X     |
-
+**Attività 2.4.3.1** Salvataggio opzionale, apertura automatica del file generato
 
 </details>
 
@@ -583,6 +543,18 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 1   |
 | Durata stimata    | 6,5 |
 
+**Attività 4.1.2** Scelta template di default
+
+| Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
+| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
+| Round 1 | 6            | 6                  | 7              | 6,33  | 6       | 6,39           |
+| Round 2 | 6            | 6,5                | 7              | 6,50  | 6,5     | 6,50           |
+
+| Unità di misura   | Unità |
+| ----------------- | --- |
+| Risorse assegnate | 1   |
+| Durata stimata    | 6,5 |
+
 **Attività 4.2** Meccanismo di selezione del template nei metadati
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
@@ -657,7 +629,7 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 
 **Attività 5.2** Gestione del flusso completo di generazione
 
-**Attività 5.2.1** Validazione iniziale (compile-time)
+**Attività 5.2.1** Validazione iniziale con contesti `using` e tipi raffinati con messaggi chiari (compile-time)
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -707,31 +679,6 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 1   |
 | Durata stimata    | 14  |
 
-**Attività 5.3** Configurazione output nei metadati
-
-| Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 16           | 12                 | 18             | 15,33 | 16      | 15,22          |
-| Round 2 | 14           | 14                 | 15             | 14,33 | 14      | 14,39          |
-
-| Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 14  |
-
-**Attività 5.4** Logging e gestione errori di generazione
-
-**Attività 5.4.1** Errori bloccanti a compile-time
-
-| Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 16           | 12                 | 18             | 15,33 | 16      | 15,22          |
-| Round 2 | 14           | 14                 | 15             | 14,33 | 14      | 14,39          |
-
-| Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 14  |
 
 </details>
 
@@ -750,9 +697,9 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Round 2 | 11           | 12                 | 12             | 11,67 | 12      | 11,61          |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 3   |
-| Durata stimata    | 5   |
+| ----------------- |-------|
+| Risorse assegnate | 3     |
+| Durata stimata    | 5     |
 
 **Attività 6.2** Integrazione come plugin sbt (comandi: generateDoc, openDoc, ecc.)
 
