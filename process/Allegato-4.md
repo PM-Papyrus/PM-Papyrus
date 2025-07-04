@@ -342,21 +342,18 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 1     |
 | Durata stimata    | 6     |
 
-
-> andare avanti a inserire i valori da qui in avanti
-jik
 **Attività 2.2.2** Costruzione del grafo documentale ricorsivo tramite builder
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 3               | 5                | 20        | 9,33  | 5       | 10,06          |
-| Round 2 | 12              | 12               | 14        | 12,67 | 12      | 12,78          |
-| Round 3 | 12              | 12               | 13        | 12,33 | 12      | 12,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 5               | 5                | 20        | 10    | 5       | 7,5            |
+| Round 2 | 8               | 8                | 12        | 9,3   | 8       | 8,67           |
+| Round 3 | 8               | 8                | 9         | 8,33  | 12      | 8,16           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 12    |
+| Durata stimata    | 8     |
 
 ---
 
@@ -371,17 +368,16 @@ jik
 | Round 3 | 30              | 30               | 32        | 30,67 | 30      | 30,78          |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | 30    |
+| ----------------- |-------|
+| Risorse assegnate | 2     |
+| Durata stimata    | 16    |
 
 **Attività 2.3.2** Applicazione dei valori di default da template
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 6               | 13               | 12        | 10,33 | 12      | 10,06          |
-| Round 2 | 12              | 13,5             | 13        | 12,83 | 13      | 12,81          |
-| Round 3 | 12,5            | 13,5             | 13        | 13,00 | 13      | 13,00          |
+| ------- |-----------------| -------------- | --------- |-------|---------|----------------|
+| Round 1 | 15              | 13             | 12        | 13,33 | 13      | 13,16          |
+| Round 2 | 13              | 13             | 13        | 13    | 13      | 13             |
 
 | Unità di misura   | Unità |
 | ----------------- | ----- |
@@ -391,15 +387,14 @@ jik
 **Attività 2.3.3** Override locale o globale tramite DSL
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | 10              | 11               | 16        | 12,33 | 11      | 12,56          |
-| Round 2 | 13              | 18               | 19        | 16,67 | 18      | 16,44          |
-| Round 3 | 17              | 19               | 19        | 18,33 | 19      | 18,22          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 8               | 10               | 10        | 9,33  | 10      | 9,66           |
+| Round 2 | 10              | 9                | 10        | 9,67  | 10      | 9,83           |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | 19    |
+| Durata stimata    | 10    |
 
 ---
 
@@ -420,14 +415,16 @@ jik
 
 **Attività 2.4.2** Fase 2: generazione HTML (`render`)
 
-| Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | X               | X                | X         | X     | X       | X              |
+| Stime          | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
+|----------------|-----------------|------------------|-----------|-------|---------|----------------|
+| Margini        | 15,5            | 13,5             | 15        | 14,67 | 15      | 14,83          |
+| Allineamento   | 20              | 19               | 22        | 20,33 | 20      | 20,16          |
+| ColUnità       | 21              | 20               | 21        | 20,67 | 21      | 20,83          |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | X     |
+| ----------------- |-------|
+| Risorse assegnate | 2     |
+| Durata stimata    | 11    |
 
 
 **Attività 2.4.3** Esportazione nei formati richiesti (da HTML a PDF, DOCX, Markdown)
@@ -444,29 +441,30 @@ jik
 
 **Attività 3** Interfaccia e sintassi DSL
 
-**Attività 3.1** Definizione delle funzioni pubbliche (section, text, listing, ecc.)
+**Attività 3.1** Definizione delle funzioni pubbliche
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | X               | X                | X         | X     | X       | X              |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 5               | 5                | 5         | 5     | 5       | 5              |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 2     |
-| Durata stimata    | X     |
+| ----------------- |-------|
+| Risorse assegnate | 3     |
+| Durata stimata    | 5     |
 
 ---
 
 **Attività 3.2** Gestione gerarchica dei contesti (es. subsection solo in section)
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | X               | X                | X         | X     | X       | X              |
+|---------|-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 18              | 9                | 18        | 15    | 18      | 16,5           |
+| Round 2 | 17              | 16               | 17        | 16,67 | 17      | 16,83          |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | X     |
+| Durata stimata    | 17    |
 
 ---
 
@@ -475,24 +473,25 @@ jik
 **Attività 3.3.1** Controllo su valori ammessi (es. font validi)
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | X               | X                | X         | X     | X       | X              |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 8               | 8                | 8         | 8     | 8       | 8              |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | X     |
+| Durata stimata    | 8     |
 
 **Attività 3.3.2** Controllo sulla posizione e struttura degli elementi
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | X               | X                | X         | X     | X       | X              |
+| ------- |-----------------|------------------|----------|-------|---------|----------------|
+| Round 1 | 6               | 7                | 4        | 5,67  | 5       | 5,83           |
+| Round 2 | 6               | 6                | 6        | 6     | 6       | 6              |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
-| Risorse assegnate | 1     |
-| Durata stimata    | X     |
+| ----------------- |------|
+| Risorse assegnate | 1    |
+| Durata stimata    | 6    |
 
 ---
 
@@ -501,24 +500,26 @@ jik
 **Attività 3.4.1** Messaggi a compile-time chiari e bloccanti
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | X               | X                | X         | X     | X       | X              |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 15              | 12               | 4         | 10,33 | 12      | 11,16          |
+| Round 2 | 13              | 12               | 12        | 12,33 | 12      | 12,16          |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | X     |
+| Durata stimata    | 12    |
 
 **Attività 3.4.2** Fallback su valori di default se semanticamente coerenti
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | --------------- | ---------------- | --------- | ----- | ------- | -------------- |
-| Round 1 | X               | X                | X         | X     | X       | X              |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 10              | 15               | 15        | 13,33 | 15      | 14,16          |
+| Round 2 | 14              | 15               | 14        | 14,33 | 14      | 14,16          |
 
 | Unità di misura   | Unità |
-| ----------------- | ----- |
+| ----------------- |-------|
 | Risorse assegnate | 1     |
-| Durata stimata    | X     |
+| Durata stimata    | 14    |
 
 </details>
 
@@ -546,14 +547,14 @@ jik
 **Attività 4.1.2** Scelta template di default
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 6            | 6                  | 7              | 6,33  | 6       | 6,39           |
-| Round 2 | 6            | 6,5                | 7              | 6,50  | 6,5     | 6,50           |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 8               | 8                | 9         | 8,33  | 8       | 8,39           |
+| Round 2 | 8               | 8,5              | 9         | 8,50  | 8,5     | 8,50           |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 6,5 |
+| ----------------- |-------|
+| Risorse assegnate | 1     |
+| Durata stimata    | 8,5   |
 
 **Attività 4.2** Meccanismo di selezione del template nei metadati
 
@@ -585,26 +586,25 @@ jik
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 18           | 22                 | 24             | 21,33 | 22      | 21,22          |
-| Round 2 | 20           | 23                 | 24             | 22,33 | 23      | 22,22          |
-| Round 3 | 22           | 24                 | 23             | 23,00 | 23      | 23,00          |
+| Round 1 | 6            | 6                  | 5              | 5,67  | 6       | 5,61           |
+| Round 2 | 5,5          | 6                  | 5,5            | 5,67  | 5,5     | 5,69           |
 
 | Unità di misura   | Unità |
 | ----------------- | --- |
 | Risorse assegnate | 1   |
-| Durata stimata    | 23  |
+| Durata stimata    | 5,5 |
 
 **Attività 4.4** Predisposizione per template personalizzati futuri
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 20           | 28                 | 30             | 26,00 | 28      | 25,67          |
-| Round 2 | 28           | 28                 | 30             | 28,67 | 28      | 28,78          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 10              | 18               | 20        | 16,00 | 18      | 15,67          |
+| Round 2 | 18              | 18               | 20        | 18,67 | 18      | 18,78          |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 29  |
+| ----------------- |-------|
+| Risorse assegnate | 1     |
+| Durata stimata    | 19    |
 
 </details>
 
@@ -618,29 +618,28 @@ jik
 **Attività 5.1** Trasformazione DSL → builder → elementi → HTML + CSS
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 6            | 7                  | 5              | 6,00  | 6       | 6,00           |
-| Round 2 | 6            | 6                  | 5              | 5,67  | 6       | 5,61           |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 20              | 28               | 20        | 22,67 | 20      | 21,33          |
+| Round 2 | 22              | 23               | 23        | 22,67 | 23      | 22,83          |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 6   |
+| ----------------- |-------|
+| Risorse assegnate | 2     |
+| Durata stimata    | 12    |
 
 **Attività 5.2** Gestione del flusso completo di generazione
 
 **Attività 5.2.1** Validazione iniziale con contesti `using` e tipi raffinati con messaggi chiari (compile-time)
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 20           | 24                 | 27             | 23,67 | 24      | 23,61          |
-| Round 2 | 21           | 24                 | 26             | 22,50 | 22,5    | 22,50          |
-| Round 3 | 23           | 24                 | 25             | 24,00 | 24      | 24,00          |
+| ------- |-----------------| ------------------ |-----------|-------|---------|----------------|
+| Round 1 | 30              | 24                 | 16        | 23,33 | 24      | 23,67          |
+| Round 2 | 23              | 24                 | 22        | 23    | 23      | 23             |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 24  |
+| ----------------- |-------|
+| Risorse assegnate | 1     |
+| Durata stimata    | 23    |
 
 **Attività 5.2.2** Generazione CSS (`renderStyle`)
 
@@ -731,42 +730,39 @@ jik
 **Attività 6.4.1** Scaladoc
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 15           | 20                 | 14             | 16,33 | 15      | 16,56          |
-| Round 2 | 16           | 20                 | 18             | 18,00 | 18      | 18,00          |
-| Round 3 | 17           | 20                 | 18             | 18,33 | 18      | 18,39          |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 7               | 15               | 7         | 9,66  | 7       | 8,33           |
+| Round 3 | 9               | 10               | 9         | 9,33  | 9       | 9,16           |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 18  |
+| ----------------- |-------|
+| Risorse assegnate | 3     |
+| Durata stimata    | 3     |
 
 **Attività 6.4.2** Esempi d’uso (README)
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 22           | 19                 | 24             | 21,67 | 22      | 21,61          |
-| Round 2 | 21           | 20                 | 23             | 20,50 | 20,5    | 20,50          |
-| Round 3 | 21           | 20                 | 22             | 21,00 | 21      | 21,00          |
+| ------- |-----------------|------------------| ------------- |-------|---------|----------------|
+| Round 1 | 3               | 4                | 4             | 3,67  | 4       | 3,83           |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 21  |
+| ----------------- |-------|
+| Risorse assegnate | 1     |
+| Durata stimata    | 4     |
 
 **Attività 6.5** Testing completo
 
 **Attività 6.5.1** Test unitari con ScalaTest
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
-| ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
-| Round 1 | 3            | 4                  | 5              | 4,00  | 4       | 4,00           |
-| Round 2 | 5            | 5                  | 5              | 5,00  | 5       | 5,00           |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 15              | 17               | 5         | 12,33 | 15      | 13,67          |
+| Round 2 | 17              | 17               | 15        | 16,33 | 17      | 16,67          |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 5   |
+| ----------------- |-------|
+| Risorse assegnate | 3     |
+| Durata stimata    | 6     |
 
 **Attività 6.5.2** Test comportamentali con Gherkin + Cucumber
 
@@ -776,9 +772,9 @@ jik
 | Round 2 | 5            | 6                  | 6              | 5,50  | 5,5     | 5,50           |
 
 | Unità di misura   | Unità |
-| ----------------- | --- |
-| Risorse assegnate | 1   |
-| Durata stimata    | 6   |
+| ----------------- |-------|
+| Risorse assegnate | 3     |
+| Durata stimata    | 3     |
 
 **Attività 6.5.3** Test di integrazione su generazione ed export
 
