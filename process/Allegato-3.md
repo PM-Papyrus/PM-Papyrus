@@ -16,10 +16,28 @@ A partire dal [RBS](../process/Allegato-2.md), vengono qui di seguito esplosi i 
 
 2. Progettazione e implementazione della libreria core
     1. Implementazione dei modelli documentali
-        1. Metadata, Content, Title, Text, Table, Section, Subsection, Listing, Image
+        1. elementi principali del documento:
+            1. Metadata
+            2. Content
+            3. Title
+            4. Text
+            5. Table
+            6. Section
+            7. Subsection
+            8. Listing
+            9. Image
         2. Ogni elemento implementa renderStyle (genera CSS) e render (genera HTML)
     2. Modellazione e struttura interna
-        1. Definizione dei builder per ciascun componente (TitleBuilder, TableBuilder, ecc.)
+        1. Definizione e implementazione dei builder
+            1. MetadataBuilder
+            2. TitleBuilder
+            3. TextBuilder
+            4. TableBuilder
+            5. SectionBuilder
+            6. SubsectionBuilder
+            7. ListingBuilder
+            8. ImageBuilder
+            9. ContentBuilder
         2. Costruzione del grafo documentale ricorsivo tramite builder
     3. Gestione degli stili e template
         1. Definizione del modello Style con attributi (font, colore, margini, ecc.)
