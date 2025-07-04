@@ -2,7 +2,9 @@
 
 ## Event Storming
 
-*(Da integrare con le fasi e gli outcome dell’event storming, se richiesto)*
+Event Storming per la definizione dei requisiti del sistema, sono riportate solo alcune azioni per motivi di spazio, ma il processo è stato molto più ampio e dettagliato.
+
+![Event Storming](../diagram/es.jpg)
 
 ## Requirements Breakdown Structure
 
