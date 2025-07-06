@@ -11,9 +11,9 @@ Partecipanti delle riunioni:
 | Membro           | Ruolo                            |
 |------------------| -------------------------------- |
 | Daniel Capannini | Product Owner e Core Team member |
-| Luca Cantagallo  | Project Manager                  |
-| sfruttato1       | Core Team member                 |
-| sfruttato2       | Core Team member                 |
+| Luca Cantagallo  | Core Team member                   |
+| ProjectMager     | Project Manager                 |
+| Developer        | Core Team member                 |
 
 
 ## I e II sessione
@@ -50,7 +50,9 @@ Agenda:
 3. Individuazione e discussione delle date previste per il completamento del progetto e delle diverse milestone.
 4. Analisi della schedula e della sua compressione, se necessario.
 
+Basandosi sulle stime elaborate negli incontri precedenti, il team ha tracciato le relazioni di dipendenza tra le attività e le ha tradotte in un cronoprogramma rappresentato tramite un diagramma di Gantt.
 
+Partendo dalle stime condivise negli incontri precedenti, il team ha mappato le dipendenze fra le attività e le ha trasformate in un cronoprogramma visualizzato tramite un diagramma di Gantt. Parallelamente, è stato assegnato a ciascuna attività il fabbisogno di risorse necessario, così da distribuire il carico di lavoro in modo equilibrato e sostenibile. La schedulazione è stata quindi analizzata per definire le date di chiusura delle singole milestone e dell’intero progetto. Infine, per assorbire eventuali ritardi o imprevisti, è stato previsto un buffer (scope bank) pari a una settimana, circa il 10% del tempo complessivo.
 
 
 >Allegato Il diagramma di Gantt è presente [allegato 5](../process/Allegato-5.md)
