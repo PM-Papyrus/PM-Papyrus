@@ -6,7 +6,7 @@ A seguito di un’analisi svolta all’interno del gruppo, è emersa una mancanz
 
 ## Scopo del progetto
 
-Il progetto si propone di sviluppare una libreria open source in Scala per la generazione automatica di documenti in formato PDF e HTML, attraverso un linguaggio DSL (Domain Specific Language) leggibile, tipizzato e semplice da estendere. La libreria dovrà permettere di definire in modo dichiarativo i contenuti e la struttura dei documenti, supportando titoli, paragrafi, elenchi, immagini, tabelle, sezioni e stili. Lo scopo è quello di semplificare la produzione di documentazione tecnica, consentendone l’integrazione fluida all’interno di progetti software o attività didattiche.
+Il progetto si propone di sviluppare una libreria open source in Scala per la generazione automatica di documenti in formato PDF e HTML, attraverso un linguaggio DSL (Domain Specific Language) leggibile, tipizzato e semplice da estendere. La libreria dovrà permettere di definire i contenuti e la struttura dei documenti in modo dichiarativo, supportando titoli, paragrafi, elenchi, immagini, tabelle, sezioni e stili. Lo scopo è quello di semplificare la produzione di documentazione tecnica, consentendone l’integrazione fluida all’interno di progetti software o attività didattiche.
 
 ## Obiettivi
 
