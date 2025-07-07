@@ -5,7 +5,7 @@ Una volta definita la struttura, i requisiti e le attività necessarie per soddi
 
 ## Kick-off meeting
 
-Nel kick-off meeting è stata condivisa con l’intero team di sviluppo una roadmap chiara: sono stati illustrati obiettivi, scadenze e aspettative del cliente, introducendo lo sponsor e presentando il team, quindi il committente ha descritto il progetto, il project manager ha dettagliato la pianificazione operativa, sono state definite le regole di lavoro e l’incontro si è concluso con una sessione di Q&A.
+Nel kick-off meeting, il team ha condiviso una roadmap chiara e condivisa: sono stati illustrati obiettivi, scadenze e aspettative del progetto, con l’introduzione del Product Owner e la presentazione dei ruoli operativi. Il Product Owner ha descritto l’idea progettuale e motivato le scelte iniziali, mentre il Project Manager ha illustrato la pianificazione esecutiva, definendo milestone, approccio Scrum e deliverable attesi. L’incontro si è concluso con la definizione delle regole di lavoro e una sessione di Q&A per garantire allineamento su strumenti, tempistiche e metodi.
 
 ## Matrice di assegnazione delle responsabilità
 

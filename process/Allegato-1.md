@@ -6,7 +6,7 @@ A seguito di un’analisi svolta all’interno del gruppo, è emersa una mancanz
 
 ## Scopo del progetto
 
-Il progetto si propone di sviluppare una libreria open source in Scala per la generazione automatica di documenti in formato PDF e HTML, attraverso un linguaggio DSL (Domain Specific Language) leggibile, tipizzato e semplice da estendere. La libreria dovrà permettere di definire in modo dichiarativo i contenuti e la struttura dei documenti, supportando titoli, paragrafi, elenchi, immagini, tabelle, sezioni e stili. Lo scopo è quello di semplificare la produzione di documentazione tecnica, consentendone l’integrazione fluida all’interno di progetti software o attività didattiche.
+Il progetto si propone di sviluppare una libreria open source in Scala per la generazione automatica di documenti in formato PDF e HTML, attraverso un linguaggio DSL leggibile, tipizzato e semplice da estendere. La libreria dovrà permettere di definire in modo dichiarativo i contenuti e la struttura dei documenti, supportando titoli, testi, elenchi, immagini, tabelle, sezioni e stili. Lo scopo è quello di semplificare la produzione di documentazione, consentendone l’integrazione fluida all’interno di progetti software.
 
 ## Obiettivi
 
@@ -14,8 +14,8 @@ L’obiettivo è fornire uno strumento ben organizzato, modulare e accessibile. 
 - una grammatica DSL chiara e intuitiva;
 - un motore di rendering per la trasformazione del linguaggio in vari tipi di formati per esempio PDF e HTML;
 - un sistema di salvataggio dei documenti generati;
-- il supporto allo stile grafico tramite file CSS per la resa HTML;
-- la gestione di lingue multiple e metadata;
+- il supporto allo stile grafico;
+- la gestione di lingue multiple in metadata;
 - una base per future estensioni, integrabile in pipeline di sviluppo.
 
 ## Conditions of Satisfaction
@@ -27,7 +27,7 @@ L’obiettivo è fornire uno strumento ben organizzato, modulare e accessibile. 
 
 ## Acceptance Criteria
 
-- Tutti i requisiti funzionali e non funzionali dovranno essere verificati tramite test automatici. La copertura del dominio dovrà superare l’80%. 
+- Tutti i requisiti funzionali e non funzionali dovranno essere verificati tramite test automatici.
 - I documenti generati dovranno essere ben formattati, coerenti con quanto definito nella DSL e visivamente leggibili. 
 - La documentazione dovrà essere completa, accessibile e pubblicata in un repository condiviso. 
 - La libreria dovrà essere facilmente installabile e integrabile in altri progetti, senza richiedere configurazioni complesse.

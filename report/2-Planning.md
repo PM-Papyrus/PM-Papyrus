@@ -2,7 +2,7 @@
 
 # Planning
 
-Conclusa la fase di scoping, il team possiede una visione chiara degli obiettivi di progetto e delle funzionalità che il sistema dovrà offrire. Prima di passare all’esecuzione, che include design e implementazione, è fondamentale elaborare un piano dettagliato, stimarne i costi e redigere una schedulazione che consenta di monitorare costantemente l’avanzamento del progetto.
+Conclusa la fase di scoping, il team possiede una visione chiara degli obiettivi di progetto e delle funzionalità che il sistema dovrà offrire. Prima di passare all’esecuzione è fondamentale elaborare un piano dettagliato, stimarne i costi e redigere una schedulazione che consenta di monitorare costantemente l’avanzamento del progetto.
 
 ## Planning del progetto
 
@@ -21,10 +21,10 @@ Partecipanti delle riunioni:
 Scopo: individuazione delle attività da svolgere per il raggiungimento dei requisiti del progetto.
 
 Agenda:
-1. Generazione e validazione della WBS.
+1. Generazione e validazione della Work Breakdown Structure (WBS).
 2. Stima della quantità di lavoro, della durata e delle risorse richieste.
 
-La riunione è iniziata con la generazione della Work Breakdown Structure (WBS) come estensione della RBS, uno strumento fondamentale per suddividere il progetto in attività più piccole, gestibili e stimabili.
+La riunione è iniziata con la generazione della WBS come estensione della RBS, uno strumento fondamentale per suddividere il progetto in attività più piccole, gestibili e stimabili.
 
 Successivamente, la WBS è stata validata, assicurandosi che tutte le componenti e requisiti fossero coperti e non ci fossero aree di lavoro omesse.
 
@@ -47,8 +47,6 @@ Agenda:
 2. Creazione della schedula del progetto.
 3. Individuazione e discussione delle date previste per il completamento del progetto e delle diverse milestone.
 4. Analisi della schedula e della sua compressione, se necessario.
-
-Basandosi sulle stime elaborate negli incontri precedenti, il team ha tracciato le relazioni di dipendenza tra le attività e le ha tradotte in un cronoprogramma rappresentato tramite un diagramma di Gantt.
 
 Partendo dalle stime condivise negli incontri precedenti, il team ha mappato le dipendenze fra le attività e le ha trasformate in un cronoprogramma visualizzato tramite un diagramma di Gantt. Parallelamente, è stato assegnato a ciascuna attività il fabbisogno di risorse necessario, così da distribuire il carico di lavoro in modo equilibrato e sostenibile. La schedulazione è stata quindi analizzata per definire le date di chiusura delle singole milestone e dell’intero progetto. Infine, per assorbire eventuali ritardi o imprevisti, è stato previsto un buffer (scope bank) pari a una settimana, circa il 10% del tempo complessivo.
 

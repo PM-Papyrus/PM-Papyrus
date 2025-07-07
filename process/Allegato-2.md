@@ -1,8 +1,10 @@
 # Allegato 2 - Requirements Breakdown Structure
 
-## Event Storming
+## Event Modeling
 
-Event Storming per la definizione dei requisiti del sistema, sono riportate solo alcune azioni per motivi di spazio, ma il processo è stato molto più ampio e dettagliato.
+Per supportare la definizione dei requisiti del sistema è stato adottato un approccio ispirato all’Event Modeling, finalizzato a rappresentare in modo chiaro il flusso di interazioni tra utente e sistema.
+Nel diagramma seguente sono illustrati i comandi, gli eventi generati e le principali trasformazioni di stato. Per motivi di sintesi sono riportate solo alcune azioni, ma il processo di modellazione è stato più ampio e articolato.
+
 ```mermaid
 flowchart TD
     %% Comandi utente
@@ -55,7 +57,7 @@ flowchart TD
 
 ## Requirements Breakdown Structure
 
-Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS](../process/Allegato-1.md) e sulla base dell’Event Storming effettuato, nel formato di una Requirements Breakdown Structure.
+Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS](../process/Allegato-1.md) e sulla base dell’Event Modeling effettuato, nel formato di una Requirements Breakdown Structure.
 
 1. Progettazione, inizializzazione e configurazione dei workspace
    1. Creazione di un repository
@@ -95,7 +97,7 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
 
 ## User Stories
 
-Le user story sono state elaborate a valle delle sessioni di Event Storming, che hanno permesso di individuare eventi chiave e processi di dominio; ogni story è stata poi validata attraverso scenari di test scritti in Gherkin ed eseguiti con Cucumber, assicurando che i criteri di accettazione fossero soddisfatti e che il comportamento del sistema corrispondesse a quanto discusso durante la modellazione.
+Le user story sono state elaborate a valle delle sessioni di Event Modeling, che hanno permesso di individuare eventi chiave e processi di dominio; ogni story è stata poi validata attraverso scenari di test scritti in Gherkin ed eseguiti con Cucumber, assicurando che i criteri di accettazione fossero soddisfatti e che il comportamento del sistema corrispondesse a quanto discusso durante la modellazione.
 
 Esempio di user story tramite Gherkin:
 

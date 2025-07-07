@@ -1,6 +1,6 @@
 # Allegato 5 - Diagramma di Gantt
 
-Di seguito è riportato il diagramma di Gantt del progetto, che illustra le attività pianificate e le loro durate. Questo diagramma è stato creato utilizzando il YouTrak e rappresenta visivamente la schedula del progetto.
+Di seguito è riportato il diagramma di Gantt del progetto, che illustra le attività pianificate e le loro durate. Questo diagramma è stato creato utilizzando il YouTrack e rappresenta visivamente la schedula del progetto.
 
 ![diagramma di gantt](../diagram/gantt6.svg)
 
