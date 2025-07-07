@@ -5,3 +5,17 @@ Di seguito è riportato il diagramma di Gantt del progetto, che illustra le atti
 ![diagramma di gantt](../diagram/gantt2.png)
 
 L’ultima attività di progetto è pianificata per il 28 Giugno 2025, a cui si aggiunge un periodo di Contengency Reserve di una settimana mantenuto per eventuali ritardi. La fine ultima del progetto è prevista entro il 7 Luglio 2025, in linea con le Conditions of Satisfactions redatti in fase di definizione del progetto. 
+
+Per quanto concerne le _Milestone_, si prevede di rilasciare la versione finale dei vari sotto-sistemi in questo ordine:
+
+```mermaid
+timeline
+    title Milestones di rilascio versioni finali
+    12 Mag : Strumenti di lavoro pronti
+    16 Mag : Elementi base del documento pronti
+    23 Mag : Tutti gli elementi del documento pronti e i Primi Builder
+    30 Mag : Finiti i Builder e prima versione del DSL
+    6 Giu : Versione definitiva del DSL, inizio sviluppo del rendering dei documenti
+    20 Giu : Versione definitiva del template
+    27 Giu : Rilascio libreria
+```

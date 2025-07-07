@@ -13,7 +13,6 @@ A partire dal [RBS](../process/Allegato-2.md), vengono qui di seguito esplosi i 
         2. Esecuzione test
         3. Generazione documentazione
         4. Deploy e rilascio versionato
-
 2. Progettazione e implementazione della libreria core
     1. Implementazione dei modelli documentali
         1. elementi principali del documento:
@@ -48,7 +47,6 @@ A partire dal [RBS](../process/Allegato-2.md), vengono qui di seguito esplosi i 
         2. Fase 2: generazione HTML (render)
         3. Esportazione nei formati richiesti (da HTML a PDF, DOCX, Markdown)
            1. Salvataggio opzionale, apertura automatica del file generato
-
 3. Interfaccia e sintassi DSL
     1. Definizione e implementazione di tutte le funzioni pubbliche
     2. Gestione gerarchica dei contesti (es. subsection solo in section)
@@ -58,7 +56,6 @@ A partire dal [RBS](../process/Allegato-2.md), vengono qui di seguito esplosi i 
     4. Gestione degli errori
         1. Messaggi a compile-time chiari e bloccanti
         2. Fallback su valori di default se semanticamente coerenti
-
 4. Sistema di template e layout documentale
     1. Progettazione di template predefiniti (es. “Elegante classico”)
         1. Scelta coerente di font, margini, colori e allineamento
@@ -68,7 +65,6 @@ A partire dal [RBS](../process/Allegato-2.md), vengono qui di seguito esplosi i 
         1. A livello globale per l'intero documento
         2. A livello locale per singoli elementi
     4. Predisposizione per template personalizzati futuri
-
 5. Rendering e generazione del documento
    1. Trasformazione DSL → builder → elementi → HTML + CSS
    2. Gestione del flusso completo di generazione
@@ -76,7 +72,6 @@ A partire dal [RBS](../process/Allegato-2.md), vengono qui di seguito esplosi i 
       2. Generazione CSS (`renderStyle`)
       3. Generazione HTML (`render`)
       4. Conversione in formato di output richiesto
-
 6. Integrazione, API pubbliche e usabilità
     1. Esportazione di API Scala pubbliche (solo DSL e configurazione; meccanismi interni nascosti)
     2. Integrazione come plugin sbt (comandi: generateDoc, openDoc, ecc.)
