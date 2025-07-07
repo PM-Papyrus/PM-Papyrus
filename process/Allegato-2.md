@@ -92,3 +92,51 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    5. Il sistema deve essere completamente testato.
 
 ![RBS](../diagram/rbs4.png)
+
+## User Stories
+
+Le user story sono state elaborate a valle delle sessioni di Event Storming, che hanno permesso di individuare eventi chiave e processi di dominio; ogni story è stata poi validata attraverso scenari di test scritti in Gherkin ed eseguiti con Cucumber, assicurando che i criteri di accettazione fossero soddisfatti e che il comportamento del sistema corrispondesse a quanto discusso durante la modellazione.
+
+Esempio di user story tramite Gherkin:
+
+```gherkin
+Feature: Papyrus document content rendering
+
+  Scenario: Render a document with title and paragraph
+    Given I create a Papyrus document
+    And I add a title "Prova"
+    And I add a paragraph "testo di prova"
+    When I render the document
+    Then The HTML output should contain:
+      """
+      |<h1>Prova</h1>
+      |<span class="cls-3E8">testo di prova</span>
+      """
+
+  Scenario: Render a section with title and text
+    Given I add a section with title "titolo section" and text "testo section"
+    When I render the document
+    Then The HTML output should contain:
+      """
+      |<section>
+      |  <h1>titolo section</h1>
+      |  <span class="cls-3E9">testo section</span>
+      |</section>
+      """
+
+  Scenario: Render a section and subSection with title and text
+    Given I add a section with title "titolo section" and text "testo section"
+    And I add a subsection with title "titolo subsection" and text "testo subsection"
+    When I render the document
+    Then The HTML output should contain:
+      """
+      |<section>
+      |  <h1>titolo section</h1>
+      |  <span class="cls-3EA">testo section</span>
+      |<section>
+      |  <h2>titolo subsection</h2>
+      |  <span class="cls-3EB">testo subsection</span>
+      |</section>
+      |</section>
+      """
+```
