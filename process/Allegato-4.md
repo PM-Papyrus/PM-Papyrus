@@ -38,7 +38,7 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | Risorse assegnate | 2     |
 | Durata stimata    | 3     |
 
-**Attività 1.3** Configurazione file build.sbt
+**Attività 1.2.2** Configurazione file build.sbt
 
 | Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
 | ------- |-----------------|------------------|-----------|-------|---------|----------------|
@@ -225,6 +225,19 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 | ------- |-----------------|------------------|-----------|-------|---------|----------------|
 | Round 1 | 8               | 5                | 3         | 5,33  | 5       | 5,16           |
 | Round 2 | 5               | 5                | 6         | 5,33  | 5       | 5,16           |
+
+| Unità di misura   | Unità |
+| ----------------- |-------|
+| Risorse assegnate | 1     |
+| Durata stimata    | 5     |
+
+
+**Attività 2.1.2** Ogni elemento implementa renderStyle (genera CSS) e render (genera HTML)
+
+| Stime   | Luca Cantagallo | Daniel Capannini | Developer | Media | Mediana | 3 point method |
+| ------- |-----------------|------------------|-----------|-------|---------|----------------|
+| Round 1 | 5               | 3                | 8         | 5,33  | 5       | 5,16           |
+| Round 2 | 5               | 6                | 5         | 5,33  | 5       | 5,16           |
 
 | Unità di misura   | Unità |
 | ----------------- |-------|
