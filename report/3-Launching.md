@@ -9,15 +9,29 @@ Nel kick-off meeting è stata condivisa con l’intero team di sviluppo una road
 
 ## Matrice di assegnazione delle responsabilità
 
+| Attività                                                   | Project Manager | Daniel Capannini | Luca Cantagallo | Developer |
+|------------------------------------------------------------|------------------|------------------|------------------|-----------|
+| Avvio del progetto                                         | R                | A                | I                | I         |
+| Configurazione workspace e CI/CD                           | A                | R                | R                | S         |
+| Creazione struttura progetto (repo, sbt, dipendenze)       | A                | R                | R                | S         |
+| Progettazione libreria core                                | C                | R                | R                | S         |
+| Gestione stili e template                                  | A                | S                | R                | R         |
+| Rendering documento multi-formato                          | C                | R                | R                | R         |
+| Builder e DSL documentali                                  | C                | R                | R                | S         |
+| Validazione statica e gestione errori                      | C                | R                | R                | S         |
+| Testing unità, integrazione e comportamento                | A                | R                | R                | R         |
+| API pubbliche e DSL                                        | C                | R                | R                | S         |
+| Deploy finale e rilascio versionato                        | A                | R                | R                | C         |
+| Consegna progetto                                          | R                | A                | C                | I         |
 
 
 ### Legenda
 
-- **Responsible:** Persona responsabile dell’attività e del suo completamento consuccesso.
-- **Accountable:** Persona Incaricato dell’approvazione del risultato dell’attività.
-- **Supporting:** Risorsa assegnata per supportare il responsabile.
-- **Consulted:** Persona disponibile per assistere il responsible.
-- **Informed:** Persona membro che deve essere tenuto informato sullo stato di avanzamento.
+- **R) Responsible:** Persona responsabile dell’attività e del suo completamento consuccesso.
+- **A) Accountable:** Persona Incaricato dell’approvazione del risultato dell’attività.
+- **S) Supporting:** Risorsa assegnata per supportare il responsabile.
+- **C) Consulted:** Persona disponibile per assistere il responsible.
+- **I) Informed:** Persona membro che deve essere tenuto informato sullo stato di avanzamento.
 
 
 ## Regole operative per il team
