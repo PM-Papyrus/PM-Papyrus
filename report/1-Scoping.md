@@ -1,6 +1,6 @@
 # Scoping
 
-# Contesto
+## Contesto
 
 Papyrus è un progetto software open source realizzato da un gruppo di quattro studenti del corso di Laurea in Ingegneria e Scienze Informatiche dell’Università di Bologna, con l’obiettivo di sviluppare un Domain Specific Language per la generazione automatica di documenti in formato PDF e HTML. L’idea nasce da un’esigenza emersa internamente al gruppo: nel contesto di sviluppo in Scala mancavano strumenti dichiarativi, leggibili e tipizzati per la produzione di documentazione, mentre le soluzioni esistenti si basano su applicazioni esterne, spesso poco flessibili, come LaTeX o Word. Papyrus si propone quindi di offrire un linguaggio semplice e accessibile, che permetta la definizione di documenti leggibili anche da non esperti, mantenendo al tempo stesso un alto grado di tipizzazione, modularità e personalizzazione, con il supporto a più lingue e la separazione dello stile tramite file CSS.
 
@@ -42,7 +42,6 @@ Dopo aver introdotto brevemente quali sono i vantaggi nell’utilizzo di questa 
 
 Il workshop inizia con la definizione di un problema o di un obiettivo e, usando sticky-note colorate e pennarelli, si mappano processi e interazioni fra tutte le entità coinvolte per ottenere una visione complessiva del sistema. Per prima cosa si individuano i domain event – fatti rilevanti già avvenuti all’interno del dominio, descritti al passato – e si dispongono in sequenza cronologica, costruendo una timeline del flusso di eventi. Si passa poi all’identificazione dei command, le azioni che un attore può eseguire sul sistema, e delle relative policy con cui il sistema reagisce, arricchendo la timeline con il dialogo eventi-azioni. Infine si mettono in evidenza i read model, ovvero tutte le informazioni che il sistema deve presentare all’utente.
 
-inserire diagramma di basa
 > Allegato Lo schema risultante dell’Event Storming è riportato, insieme all’RBS presenti in [allegato 2](../process/Allegato-2.md)
 
 Grazie a una strutturazione gerarchica dei requisiti è stato possibile definire la sequenza di sviluppo delle macro-componenti, così da beneficiare fin dall’inizio della continuous integration e impostare un percorso di testing incrementale.
