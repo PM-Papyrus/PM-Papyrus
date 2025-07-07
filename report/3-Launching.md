@@ -11,7 +11,7 @@ Nel kick-off meeting è stata condivisa con l’intero team di sviluppo una road
 
 
 
-### Legend
+### Legenda
 
 - **Responsible:** Persona responsabile dell’attività e del suo completamento consuccesso.
 - **Accountable:** Persona Incaricato dell’approvazione del risultato dell’attività.

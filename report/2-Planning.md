@@ -2,9 +2,9 @@
 
 # Planning
 
-Conclusa la fase di scoping, il team possiede una visione chiara degli obiettivi di progetto e delle funzionalità che il sistema dovrà offrire. Prima di passare all’esecuzione—che include design e implementazione—è fondamentale elaborare un piano dettagliato, stimarne i costi e redigere una schedulazione che consenta di monitorare costantemente l’avanzamento del progetto.
+Conclusa la fase di scoping, il team possiede una visione chiara degli obiettivi di progetto e delle funzionalità che il sistema dovrà offrire. Prima di passare all’esecuzione, che include design e implementazione, è fondamentale elaborare un piano dettagliato, stimarne i costi e redigere una schedulazione che consenta di monitorare costantemente l’avanzamento del progetto.
 
-## project planning
+## Planning del progetto
 
 Partecipanti delle riunioni:
 
@@ -22,9 +22,9 @@ Scopo: individuazione delle attività da svolgere per il raggiungimento dei requ
 
 Agenda:
 1. Generazione e validazione della WBS.
-2. tima della quantità di lavoro, della durata e delle risorse richieste.
+2. Stima della quantità di lavoro, della durata e delle risorse richieste.
 
-La riunione è iniziata con la generazione della Work Breakdown Structure (WBS) come estensione della Requirements Breakdown Structure (RBS), uno strumento fondamentale per suddividere il progetto in attività più piccole, gestibili e stimabili.
+La riunione è iniziata con la generazione della Work Breakdown Structure (WBS) come estensione della RBS, uno strumento fondamentale per suddividere il progetto in attività più piccole, gestibili e stimabili.
 
 Successivamente, la WBS è stata validata, assicurandosi che tutte le componenti e requisiti fossero coperti e non ci fossero aree di lavoro omesse.
 
@@ -35,8 +35,6 @@ Una volta completata la WBS, il team ha proceduto con la stima delle attività, 
 Le attività sono state stimate in ore-uomo mediante un processo iterativo. Il team ha applicato tre tecniche in parallelo — media aritmetica, mediana e Three-Point Method — e, grazie a quest’ultima, ha potuto bilanciare le stime ottimistiche e pessimistiche ottenendo valori più realistici. Attraverso cicli successivi di confronto fra i metodi, le stime sono state via via affinate fino a convergere su risultati condivisi.
 
 La stima finale è ottenuta come il valore massimo tra la media e la mediana delle stime, in modo da garantire una stima conservativa e realistica.
-
-> se vogliamo mettere altro vediamo
 
 >Allegato L’analisi delle stime dei costi è presente [allegato 4](../process/Allegato-4.md)
 
@@ -59,7 +57,7 @@ Partendo dalle stime condivise negli incontri precedenti, il team ha mappato le 
 
 ## IV sessione
 
-scopo: identificare i rischi.
+Scopo: identificare i rischi.
 
 Agenda:
 1. Identificazione dei rischi e degli eventuali piani di mitigazione.
