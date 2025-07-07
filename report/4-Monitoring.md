@@ -12,5 +12,4 @@ Le riunioni di sincronizzazione si tengono con cadenza fissa ogni lunedì, momen
 
 ##  Issues Logging
 
-> che ci mettiamo che non lo abbiamo fatto? ahaahh
-> usare fantasia, su github c'e' un issues logging, magari fingiamo di aver usato quello? o se no qualsiasi altro strumento di issue logging
+Appena affiora un’anomalia, viene segnalata istantaneamente nel Daily Meeting della stessa giornata: tolleranza zero per ritardi o “problemi sotto il tappeto”. Il Project Manager la registra nell’Issue Log e assegna subito un owner preciso. Il referente crea istantaneamente un branch dedicato, `fix-{nome-problema}` isolando la correzione dal flusso principale di sviluppo. Terminato l’intervento, apre una pull request verso il branch d’origine: ne scaturiscono revisione paritaria, test automatici e tracciabilità completa fino al merge. Così l’intero ciclo, dalla scoperta alla chiusura, resta trasparente, versionato e ancorato al registro delle issue, trasformando ogni imprevisto in un passo misurabile verso la qualità.
