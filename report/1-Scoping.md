@@ -57,3 +57,4 @@ Il processo decisionale si è svolto in maniera condivisa, con votazioni informa
 Dal punto di vista della qualità dei requisiti, il team ha prestato particolare attenzione a garantire **chiarezza**, **fattibilità**, **manutenibilità** e **affidabilità** nelle decisioni di design. Le scelte tecniche sono state guidate non solo da esigenze funzionali, ma anche da criteri di valutazione metodologica come stabilità nel tempo, semplicità di estensione e verificabilità dei risultati.
 
 Infine, sono stati realizzati modelli concettuali (diagrammi UML), definiti moduli indipendenti e impostata una roadmap realistica, che ha guidato i successivi sprint con un alto grado di coerenza rispetto agli obiettivi iniziali.  -->
+
