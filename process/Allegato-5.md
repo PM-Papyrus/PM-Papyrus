@@ -10,7 +10,7 @@ Per quanto concerne le _Milestone_, si prevede che i progetto alla fine di ogni 
 
 ```mermaid
 timeline
-    title Milestones di rilascio versioni finali
+    title Milestones di rilascio per ogni sprint
     12 Mag : Strumenti di lavoro pronti
     16 Mag : Elementi base del documento pronti
     23 Mag : Tutti gli elementi del documento pronti e i Primi Builder
